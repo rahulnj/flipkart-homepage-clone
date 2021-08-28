@@ -72,7 +72,7 @@ nav-container {
   margin-left: 10px;
 }
 .search-box {
-  margin-left: -590px;
+  margin-left: -575px;
   margin-top: 10px;
   outline: none;
   padding-top: 0px;
@@ -140,5 +140,133 @@ nav-container {
   cursor: pointer;
   font-size: 16px;
 }
-.heading-cate {
+.categories {
+  background: #fff;
+  justify-content: center;
+  border-bottom: 1px;
+  border-bottom: lightgray;
+}
+.category-list {
+  list-style: none;
+  max-width: 1280px;
+  justify-content: space-between;
+  width: 100%;
+}
+.category-list-items {
+  padding-top: 12px;
+  padding-right: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+.category-list-items:hover {
+  color: #2874f0;
+}
+.category-images {
+  height: 64px;
+  width: 64px;
+}
+.category-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav-button {
+  position: absolute;
+}
+.ad-bt {
+  position: relative;
+  border-radius: 4px;
+  font-size: 40px;
+  background: hsla(0, 0%, 100%, 0.98);
+  width: 47px;
+  height: 104px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 5px 0 rgb(0 0 0 / 11%);
+  cursor: pointer;
+}
+.prev-btn {
+  left: 0;
+  margin-left: 8px;
+  font-size: 40px;
+  margin-top: 100px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.next-btn {
+  color: #000000;
+  right: 0;
+  margin-right: 8px;
+  font-size: 40px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+.ad-item-container {
+  margin: auto;
+  max-width: 1608px;
+  min-width: 978px;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+.ad-items {
+  width: 100%;
+}
+.ad-img {
+  width: 100%;
+  height: 280px;
+  padding: 8px;
+}
+
+.card {
+  box-shadow: rgb(177, 174, 174) 0px 0px 5px 3px;
+  padding: 10px 0px;
+  margin: 10px 5px;
+  border-radius: 5px;
+}
+.common-heading {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 20px;
+  margin-top: 20px;
+  box-shadow: gainsboro;
+}
+.common-heading-left h1 {
+  font-size: 20px;
+  font-weight: 400;
+  padding: auto;
+}
+.common-heading-left h2 {
+  font-size: 15px;
+  padding: 5px 0px;
+  color: rgb(145, 141, 138);
+  font-weight: 200;
+}
+.common-heading-right button {
+  width: 90px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #2874f0;
+  border: none;
+  color: white;
+  border-radius: 2px;
+}
+.common-row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  min-height: 366px;
+  margin: 10px 0px;
+}
+.common-col {
+  text-align: center;
+  line-height: 22px;
+}
+.common-col img {
+  width: 69px;
+  height: 150px;
+  transition: 300ms;
+}
+.common-col img:hover {
+  transform: scale(0.9);
 }
